@@ -1,0 +1,143 @@
+/* color pallete for index.php
+#96ACB7
+#232E34
+#92140C
+
+*/
+
+.postName {
+    color: #117743;
+    font-weight: 700;
+    font-size: 15;
+}
+
+.postTimestamp {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgb(0, 0, 0);
+}
+
+.postCategory {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+
+.postInfo {
+    color: rgb(0, 0, 0);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+
+}
+
+.hidden{
+    display: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.buttonLink {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+.postMain {
+    background-color: #D6DAF0; /* #E8E3CF*/
+    border: 1px solid #d9bfb7; /* #E8E3CF*/
+    border-top-color: rgb(217, 191, 183); /* 217, 191, 183*/
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left-color: rgb(217, 191, 183); /* 217, 191, 183 */
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: none;
+    border-top: none;
+    display: table;
+    padding: 2px;
+}
+
+.postReply {
+    background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    border-top-color: rgb(217, 191, 183);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left-color: rgb(217, 191, 183);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: none;
+    border-top: none;
+    display: table;
+    padding: 2px;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+.draggable {
+    cursor: move !important;
+}
+
+.clickable {
+    cursor: pointer !important;
+}
+
+.image{
+    margin-right:8px;
+    max-width: 450px;
+    max-height: 450px;
+    
+}
+
+hr {
+    border: none;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-top: 1px solid #b7c5d9;
+    height: 0;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;       /*Since CSS 2.1 this prevents overflow in posts*/
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+:target {
+	-webkit-animation: target-fade 1s;
+	-moz-animation: target-fade 1s;
+	-o-animation: target-fade 1s;
+	animation: target-fade 1s;
+}
+@-webkit-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-moz-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-o-keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@keyframes target-fade {
+	from { background-color: red; } /* [1] */
+	to { background-color: transparent; }
+}
+
